@@ -1,9 +1,21 @@
-import React, { useState } from "react";
-import HelloWorld from "./HelloWorld";
+import React from "react";
+import './App.css';
 
-const App = () => {
-  const [tech] = useState("React");
-  return <HelloWorld tech={tech} />;
-};
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <div>
+          <p className="title_name">BOOK NAME</p>
+          <p className="title_des">Understanding Redux 1</p>
+        </div>
+        <div>
+          <p className="title_name">TOTAL TIME SPENT ON THE PROJECT</p>
+        </div>
+      </div>
+
+    )
+  }
+}
 
 export default App;
