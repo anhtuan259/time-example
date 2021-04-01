@@ -3,9 +3,9 @@ import reducers from '../reducers'
 
 const initialState = {
     days: 11,
-    hours: 31,
-    minutes: 27,
+    hours: 23,
+    minutes: 1,
     seconds: 11,
-    activeSession: "minutes"
+    activeSession: "SECONDS"
 };
 export const store = createStore(reducers, initialState);

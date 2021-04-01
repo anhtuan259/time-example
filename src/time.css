@@ -1,0 +1,43 @@
+
+.timeZone{
+    height: 10rem;
+    width:50rem;
+    background: black;
+    margin-top: 2rem;
+    padding: 4em;
+   text-align: right;
+   border-radius: 2rem;
+  }
+.active{
+    color: white;
+    font-weight: bold;
+    color: darkgray;
+}
+.ope{
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.time{
+    flex-direction: row; 
+    text-align: center;
+}
+.number{
+    color: white;
+    font-size: 6em;
+    font-weight: bolder;
+    padding: 2.5rem;
+}
+.nameTime{
+    flex-direction: row;
+    text-align: center;
+}
+
+.titleTime{
+    color: white;
+    font-weight: bold;
+    color: darkgray;
+    padding: 1rem 3.6rem;
+    margin-left: 1.245rem;
+}
+  

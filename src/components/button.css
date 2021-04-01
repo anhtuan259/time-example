@@ -1,0 +1,13 @@
+.App_button{
+    padding: 2rem 4rem;
+    margin-left: 17%;
+    font-weight: bold;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+.groupButton{
+    padding: 3rem;
+    align-content: center;
+}
